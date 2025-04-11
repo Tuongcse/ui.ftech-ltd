@@ -19,19 +19,19 @@ Use the `add` command to add components to your project.
 The `add` command adds a component to your project and installs all required dependencies.
 
 ```bash
-npx shadcn add [component]
+npx ftech-ui add [component]
 ```
 
 ### Example
 
 ```bash
-npx shadcn add alert-dialog
+npx ftech-ui add alert-dialog
 ```
 
 You can also run the command without any arguments to view a list of all available components:
 
 ```bash
-npx shadcn add
+npx ftech-ui add
 ```
 
 ## Documentation

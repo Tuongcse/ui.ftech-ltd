@@ -1332,6 +1332,41 @@ export const Index: Record<string, any> = {
       source: "__registry__/new-york/blocks/login-05/page.tsx",
       meta: undefined,
     },
+    "repository": {
+      name: "repository",
+      description: "A collection of repository components",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [{
+        path: "registry/new-york/blocks/repository/data/[module]/index.ts",
+        type: "registry:lib",
+        target: "data/[module]/index.ts"
+      },{
+        path: "registry/new-york/blocks/repository/data/core/model.ts",
+        type: "registry:lib",
+        target: "data/core/model.ts"
+      },{
+        path: "registry/new-york/blocks/repository/data/core/net/api.ts",
+        type: "registry:lib",
+        target: "data/core/net/api.ts"
+      },{
+        path: "registry/new-york/blocks/repository/data/core/net/index.ts",
+        type: "registry:lib",
+        target: "data/core/net/index.ts"
+      },{
+        path: "registry/new-york/blocks/repository/data/index.ts",
+        type: "registry:lib",
+        target: "data/index.ts"
+      },{
+        path: "registry/new-york/blocks/repository/lib/helper.ts",
+        type: "registry:lib",
+        target: "lib/helper.ts"
+      }],
+      categories: undefined,
+      component: React.lazy(() => import("@/registry/new-york/blocks/repository/data/[module]/index.ts")),
+      source: "__registry__/new-york/blocks/repository/data/[module]/index.ts",
+      meta: undefined,
+    },
     "chart-area-axes": {
       name: "chart-area-axes",
       description: "",
@@ -6683,6 +6718,41 @@ export const Index: Record<string, any> = {
       categories: ["authentication","login"],
       component: React.lazy(() => import("@/registry/default/blocks/login-05/page.tsx")),
       source: "__registry__/default/blocks/login-05/page.tsx",
+      meta: undefined,
+    },
+    "repository": {
+      name: "repository",
+      description: "A collection of repository components",
+      type: "registry:block",
+      registryDependencies: [],
+      files: [{
+        path: "registry/default/blocks/repository/data/[module]/index.ts",
+        type: "registry:lib",
+        target: "data/[module]/index.ts"
+      },{
+        path: "registry/default/blocks/repository/data/core/model.ts",
+        type: "registry:lib",
+        target: "data/core/model.ts"
+      },{
+        path: "registry/default/blocks/repository/data/core/net/api.ts",
+        type: "registry:lib",
+        target: "data/core/net/api.ts"
+      },{
+        path: "registry/default/blocks/repository/data/core/net/index.ts",
+        type: "registry:lib",
+        target: "data/core/net/index.ts"
+      },{
+        path: "registry/default/blocks/repository/data/index.ts",
+        type: "registry:lib",
+        target: "data/index.ts"
+      },{
+        path: "registry/default/blocks/repository/lib/helper.ts",
+        type: "registry:lib",
+        target: "lib/helper.ts"
+      }],
+      categories: undefined,
+      component: React.lazy(() => import("@/registry/default/blocks/repository/data/[module]/index.ts")),
+      source: "__registry__/default/blocks/repository/data/[module]/index.ts",
       meta: undefined,
     },
     "chart-area-axes": {

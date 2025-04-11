@@ -702,4 +702,48 @@ export const blocks: Registry["items"] = [
     ],
     categories: ["authentication", "login"],
   },
+  {
+    name: "repository",
+    type: "registry:lib",
+    description: "A collection of repository components",
+    dependencies: [
+      "js-cookie",
+      "@tanstack/react-query",
+      "axios",
+      "numeral",
+      "dayjs",
+    ],
+    files: [
+      {
+        path: "blocks/repository/data/[module]/index.ts",
+        type: "registry:lib",
+        target: "data/[module]/index.ts",
+      },
+      {
+        path: "blocks/repository/data/core/model.ts",
+        type: "registry:lib",
+        target: "data/core/model.ts",
+      },
+      {
+        path: "blocks/repository/data/core/net/api.ts",
+        type: "registry:lib",
+        target: "data/core/net/api.ts",
+      },
+      {
+        path: "blocks/repository/data/core/net/index.ts",
+        type: "registry:lib",
+        target: "data/core/net/index.ts",
+      },
+      {
+        path: "blocks/repository/data/index.ts",
+        type: "registry:lib",
+        target: "data/index.ts",
+      },
+      {
+        path: "blocks/repository/lib/helper.ts",
+        type: "registry:lib",
+        target: "lib/helper.ts",
+      },
+    ],
+  },
 ]
