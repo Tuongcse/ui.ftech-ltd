@@ -28,7 +28,7 @@ const main = async () => {
   console.log(chalk.green(`  ${getInvoker()}`))
   console.log("")
   console.log(
-    chalk.yellow("For more information, visit: https://ui.shadcn.com/docs/cli")
+    chalk.yellow("For more information, visit: https://ui.ftech.ltd/docs/cli")
   )
   console.log("")
 }

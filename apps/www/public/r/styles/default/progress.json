@@ -1,8 +1,8 @@
 {
-  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "$schema": "https://ui.ftech.ltd/schema/registry-item.json",
   "name": "progress",
   "type": "registry:ui",
-  "author": "shadcn (https://ui.shadcn.com)",
+  "author": "shadcn (https://ui.ftech.ltd)",
   "dependencies": [
     "@radix-ui/react-progress"
   ],

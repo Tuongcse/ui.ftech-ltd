@@ -3,7 +3,7 @@ export const FRAMEWORKS = {
     name: "next-app",
     label: "Next.js",
     links: {
-      installation: "https://ui.shadcn.com/docs/installation/next",
+      installation: "https://ui.ftech.ltd/docs/installation/next",
       tailwind: "https://tailwindcss.com/docs/guides/nextjs",
     },
   },
@@ -11,7 +11,7 @@ export const FRAMEWORKS = {
     name: "next-pages",
     label: "Next.js",
     links: {
-      installation: "https://ui.shadcn.com/docs/installation/next",
+      installation: "https://ui.ftech.ltd/docs/installation/next",
       tailwind: "https://tailwindcss.com/docs/guides/nextjs",
     },
   },
@@ -19,7 +19,7 @@ export const FRAMEWORKS = {
     name: "remix",
     label: "Remix",
     links: {
-      installation: "https://ui.shadcn.com/docs/installation/remix",
+      installation: "https://ui.ftech.ltd/docs/installation/remix",
       tailwind: "https://tailwindcss.com/docs/guides/remix",
     },
   },
@@ -27,7 +27,7 @@ export const FRAMEWORKS = {
     name: "react-router",
     label: "React Router",
     links: {
-      installation: "https://ui.shadcn.com/docs/installation/react-router",
+      installation: "https://ui.ftech.ltd/docs/installation/react-router",
       tailwind:
         "https://tailwindcss.com/docs/installation/framework-guides/react-router",
     },
@@ -36,7 +36,7 @@ export const FRAMEWORKS = {
     name: "vite",
     label: "Vite",
     links: {
-      installation: "https://ui.shadcn.com/docs/installation/vite",
+      installation: "https://ui.ftech.ltd/docs/installation/vite",
       tailwind: "https://tailwindcss.com/docs/guides/vite",
     },
   },
@@ -44,7 +44,7 @@ export const FRAMEWORKS = {
     name: "astro",
     label: "Astro",
     links: {
-      installation: "https://ui.shadcn.com/docs/installation/astro",
+      installation: "https://ui.ftech.ltd/docs/installation/astro",
       tailwind: "https://tailwindcss.com/docs/guides/astro",
     },
   },
@@ -52,7 +52,7 @@ export const FRAMEWORKS = {
     name: "laravel",
     label: "Laravel",
     links: {
-      installation: "https://ui.shadcn.com/docs/installation/laravel",
+      installation: "https://ui.ftech.ltd/docs/installation/laravel",
       tailwind: "https://tailwindcss.com/docs/guides/laravel",
     },
   },
@@ -60,7 +60,7 @@ export const FRAMEWORKS = {
     name: "tanstack-start",
     label: "TanStack Start",
     links: {
-      installation: "https://ui.shadcn.com/docs/installation/tanstack",
+      installation: "https://ui.ftech.ltd/docs/installation/tanstack",
       tailwind: "https://tailwindcss.com/docs/installation/using-postcss",
     },
   },
@@ -68,7 +68,7 @@ export const FRAMEWORKS = {
     name: "gatsby",
     label: "Gatsby",
     links: {
-      installation: "https://ui.shadcn.com/docs/installation/gatsby",
+      installation: "https://ui.ftech.ltd/docs/installation/gatsby",
       tailwind: "https://tailwindcss.com/docs/guides/gatsby",
     },
   },
@@ -76,7 +76,7 @@ export const FRAMEWORKS = {
     name: "manual",
     label: "Manual",
     links: {
-      installation: "https://ui.shadcn.com/docs/installation/manual",
+      installation: "https://ui.ftech.ltd/docs/installation/manual",
       tailwind: "https://tailwindcss.com/docs/installation",
     },
   },

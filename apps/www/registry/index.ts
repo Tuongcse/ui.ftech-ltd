@@ -12,7 +12,7 @@ import { ui } from "@/registry/registry-ui"
 
 export const registry = {
   name: "shadcn/ui",
-  homepage: "https://ui.shadcn.com",
+  homepage: "https://ui.ftech.ltd",
   items: [
     ...ui,
     ...blocks,

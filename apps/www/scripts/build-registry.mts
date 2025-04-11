@@ -377,8 +377,8 @@ async function buildStyles(registry: Registry) {
       }
 
       const payload = registryItemSchema.safeParse({
-        $schema: "https://ui.shadcn.com/schema/registry-item.json",
-        author: "shadcn (https://ui.shadcn.com)",
+        $schema: "https://ui.ftech.ltd/schema/registry-item.json",
+        author: "shadcn (https://ui.ftech.ltd)",
         ...item,
         files,
       })

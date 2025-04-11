@@ -14,7 +14,7 @@ const DEPRECATED_ITEMS = ["toast"]
 
 const registry = {
   name: "shadcn/ui",
-  homepage: "https://ui.shadcn.com",
+  homepage: "https://ui.ftech.ltd",
   items: z.array(registryItemSchema).parse(
     [
       {

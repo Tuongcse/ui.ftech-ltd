@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "shadcn/ui",
-  url: "https://ui.shadcn.com",
-  ogImage: "https://ui.shadcn.com/og.jpg",
+  url: "https://ui.ftech.ltd",
+  ogImage: "https://ui.ftech.ltd/og.jpg",
   description:
     "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
   links: {
