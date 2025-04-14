@@ -4,6 +4,7 @@ import { BlockDisplay } from "@/components/block-display"
 import { Button } from "@/registry/new-york/ui/button"
 
 const FEATURED_BLOCKS = [
+  "repository",
   "dashboard-01",
   "sidebar-07",
   "sidebar-03",

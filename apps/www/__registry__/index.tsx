@@ -1336,8 +1336,12 @@ export const Index: Record<string, any> = {
       name: "repository",
       description: "A collection of repository components",
       type: "registry:block",
-      registryDependencies: [],
+      registryDependencies: undefined,
       files: [{
+        path: "registry/new-york/blocks/repository/page.tsx",
+        type: "registry:page",
+        target: "app/repository/page.tsx"
+      },{
         path: "registry/new-york/blocks/repository/data/[module]/index.ts",
         type: "registry:lib",
         target: "data/[module]/index.ts"
@@ -1363,8 +1367,8 @@ export const Index: Record<string, any> = {
         target: "lib/helper.ts"
       }],
       categories: undefined,
-      component: React.lazy(() => import("@/registry/new-york/blocks/repository/data/[module]/index.ts")),
-      source: "__registry__/new-york/blocks/repository/data/[module]/index.ts",
+      component: React.lazy(() => import("@/registry/new-york/blocks/repository/page.tsx")),
+      source: "__registry__/new-york/blocks/repository/page.tsx",
       meta: undefined,
     },
     "chart-area-axes": {
@@ -6724,8 +6728,12 @@ export const Index: Record<string, any> = {
       name: "repository",
       description: "A collection of repository components",
       type: "registry:block",
-      registryDependencies: [],
+      registryDependencies: undefined,
       files: [{
+        path: "registry/default/blocks/repository/page.tsx",
+        type: "registry:page",
+        target: "app/repository/page.tsx"
+      },{
         path: "registry/default/blocks/repository/data/[module]/index.ts",
         type: "registry:lib",
         target: "data/[module]/index.ts"
@@ -6751,8 +6759,8 @@ export const Index: Record<string, any> = {
         target: "lib/helper.ts"
       }],
       categories: undefined,
-      component: React.lazy(() => import("@/registry/default/blocks/repository/data/[module]/index.ts")),
-      source: "__registry__/default/blocks/repository/data/[module]/index.ts",
+      component: React.lazy(() => import("@/registry/default/blocks/repository/page.tsx")),
+      source: "__registry__/default/blocks/repository/page.tsx",
       meta: undefined,
     },
     "chart-area-axes": {

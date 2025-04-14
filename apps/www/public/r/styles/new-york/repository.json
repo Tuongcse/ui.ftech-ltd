@@ -11,8 +11,13 @@
     "numeral",
     "dayjs"
   ],
-  "registryDependencies": [],
   "files": [
+    {
+      "path": "blocks/repository/page.tsx",
+      "content": "export default function Page() {\n  return (\n    <div className=\"flex flex-col items-center justify-center w-full h-full\">\n      <h1 className=\"text-2xl font-bold\">Repository</h1>\n      <p className=\"text-lg\">This is the repository page.</p>\n    </div>\n  )\n}\n",
+      "type": "registry:page",
+      "target": "app/repository/page.tsx"
+    },
     {
       "path": "blocks/repository/data/[module]/index.ts",
       "content": "import { useMutation, useQuery } from \"@tanstack/react-query\"\nimport Cookies from \"js-cookie\"\n\nimport { Model } from \"../../data\"\nimport { IServiceConstructorData } from \"../core/net\"\n\nfunction getToken() {\n  let token = Cookies.get(\"token\")\n  if (!token) return\n  return `Bearer ${token}`\n}\n\nexport interface IModule {}\n\nexport class Module extends Model {}\n\nconst modelConfig: IServiceConstructorData = {\n  path: \"/\",\n  baseUrl: process.env.API_URL || \"http://localhost:8080\",\n  auth: getToken,\n}\n\nModule.setup(modelConfig)\n\nexport function useCreateModule(data: any) {\n  return useMutation({\n    mutationKey: [\"createModule\"],\n    mutationFn: () => Module.create(data),\n  })\n}\n\nexport function useGetModule(id: string) {\n  return useQuery({\n    queryKey: [\"getModule\", id],\n    queryFn: () => Module.get(id),\n  })\n}\n\nexport function useUpdateModule(id: string, data: any) {\n  return useMutation({\n    mutationKey: [\"updateModule\", id],\n    mutationFn: () => Module.update(id, data),\n  })\n}\n\nexport function useDeleteModule(id: string) {\n  return useMutation({\n    mutationKey: [\"deleteModule\", id],\n    mutationFn: () => Module.delete(id),\n  })\n}\n",

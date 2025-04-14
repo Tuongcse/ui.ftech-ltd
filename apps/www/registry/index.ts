@@ -20,7 +20,6 @@ export const registry = {
     ...lib,
     ...hooks,
     ...themes,
-
     // Internal use only.
     ...internal,
     ...examples,

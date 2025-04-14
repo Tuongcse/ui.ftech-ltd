@@ -704,7 +704,7 @@ export const blocks: Registry["items"] = [
   },
   {
     name: "repository",
-    type: "registry:lib",
+    type: "registry:block",
     description: "A collection of repository components",
     dependencies: [
       "js-cookie",
@@ -714,6 +714,11 @@ export const blocks: Registry["items"] = [
       "dayjs",
     ],
     files: [
+      {
+        path: "blocks/repository/page.tsx",
+        type: "registry:page",
+        target: "app/repository/page.tsx",
+      },
       {
         path: "blocks/repository/data/[module]/index.ts",
         type: "registry:lib",
