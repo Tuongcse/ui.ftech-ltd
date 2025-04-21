@@ -8,7 +8,7 @@ import {
   PageHeaderHeading,
 } from "@/components/page-header"
 import { Customizer } from "@/components/theme-customizer"
-import { Button } from "@/registry/new-york/ui/button"
+import { Button } from "@/registry/ftech/ui/button"
 
 const title = "Add colors. Make it yours."
 const description =

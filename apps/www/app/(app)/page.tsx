@@ -11,7 +11,7 @@ import {
   PageHeaderDescription,
   PageHeaderHeading,
 } from "@/components/page-header"
-import { Button } from "@/registry/new-york/ui/button"
+import { Button } from "@/registry/ftech/ui/button"
 
 const title = "Build your component library"
 const description =
@@ -45,15 +45,12 @@ export default function IndexPage() {
   return (
     <>
       <PageHeader>
-        <Announcement />
+
         <PageHeaderHeading>{title}</PageHeaderHeading>
         <PageHeaderDescription>{description}</PageHeaderDescription>
         <PageActions>
-          <Button asChild size="sm" className="rounded-md">
-            <Link href="/docs/installation">Get Started</Link>
-          </Button>
           <Button asChild size="sm" variant="ghost" className="rounded-md">
-            <Link href="/blocks">Browse Blocks</Link>
+            <Link href="/blocks">Browse Modules</Link>
           </Button>
         </PageActions>
       </PageHeader>

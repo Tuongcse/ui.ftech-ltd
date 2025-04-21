@@ -25,20 +25,20 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/registry/new-york/ui/accordion"
+} from "@/registry/ftech/ui/accordion"
 import {
   Alert,
   AlertDescription,
   AlertTitle,
-} from "@/registry/new-york/ui/alert"
-import { AspectRatio } from "@/registry/new-york/ui/aspect-ratio"
-import { Button } from "@/registry/new-york/ui/button"
+} from "@/registry/ftech/ui/alert"
+import { AspectRatio } from "@/registry/ftech/ui/aspect-ratio"
+import { Button } from "@/registry/ftech/ui/button"
 import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
-} from "@/registry/new-york/ui/tabs"
+} from "@/registry/ftech/ui/tabs"
 import { Style } from "@/registry/registry-styles"
 
 const components = {

@@ -8,7 +8,7 @@ import {
   PageHeaderDescription,
   PageHeaderHeading,
 } from "@/components/page-header"
-import { Button } from "@/registry/new-york/ui/button"
+import { Button } from "@/registry/ftech/ui/button"
 
 const title = "Color Library"
 const description = "Tailwind CSS colors in HSL, RGB, HEX and OKLCH formats."

@@ -15,9 +15,5 @@
       "type": "registry:component",
       "target": ""
     }
-  ],
-  "categories": [
-    "charts",
-    "charts-area"
   ]
 }

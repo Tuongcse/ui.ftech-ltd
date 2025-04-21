@@ -28,7 +28,7 @@ apps
         ├── default
         │   ├── example
         │   └── ui
-        └── new-york
+        └── ftech
             ├── example
             └── ui
 packages
@@ -148,7 +148,7 @@ apps
         ├── default
         │   ├── example
         │   └── ui
-        └── new-york
+        └── ftech
             ├── example
             └── ui
 ```

@@ -1,6 +1,6 @@
 {
   "$schema": "https://ui.ftech.ltd/schema.json",
-  "style": "new-york",
+  "style": "ftech",
   "rsc": false,
   "tsx": true,
   "tailwind": {

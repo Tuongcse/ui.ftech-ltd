@@ -28,8 +28,6 @@ const REGISTRY_INDEX_WHITELIST: z.infer<typeof registryItemTypeSchema>[] = [
   "registry:hook",
   "registry:theme",
   "registry:block",
-  "registry:example",
-  "registry:internal",
 ]
 
 const project = new Project({
@@ -45,7 +43,7 @@ async function createTempSourceFile(filename: string) {
 // Sync styles
 // ----------------------------------------------------------------------------
 async function syncStyles() {
-  const sourceStyle = "new-york"
+  const sourceStyle = "ftech"
   const targetStyle = "default"
 
   const syncDirectories = ["blocks", "hooks", "internal", "lib", "charts"]
@@ -84,7 +82,7 @@ async function syncStyles() {
         await fs.mkdir(path.dirname(targetPath), { recursive: true })
         await fs.copyFile(sourcePath, targetPath)
 
-        // Replace all @/registry/new-york/ with @/registry/default/.
+        // Replace all @/registry/ftech/ with @/registry/default/.
         const content = await fs.readFile(targetPath, "utf8")
         const fixedContent = content.replace(
           new RegExp(`@/registry/${sourceStyle}/`, "g"),

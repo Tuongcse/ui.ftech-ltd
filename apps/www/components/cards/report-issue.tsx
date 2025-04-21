@@ -2,7 +2,7 @@
 
 import * as React from "react"
 
-import { Button } from "@/registry/new-york/ui/button"
+import { Button } from "@/registry/ftech/ui/button"
 import {
   Card,
   CardContent,
@@ -10,17 +10,17 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/registry/new-york/ui/card"
-import { Input } from "@/registry/new-york/ui/input"
-import { Label } from "@/registry/new-york/ui/label"
+} from "@/registry/ftech/ui/card"
+import { Input } from "@/registry/ftech/ui/input"
+import { Label } from "@/registry/ftech/ui/label"
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/registry/new-york/ui/select"
-import { Textarea } from "@/registry/new-york/ui/textarea"
+} from "@/registry/ftech/ui/select"
+import { Textarea } from "@/registry/ftech/ui/textarea"
 
 export function CardsReportIssue() {
   const id = React.useId()

@@ -3,8 +3,7 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 
-import { cn } from "@/lib/utils"
-import { ScrollArea, ScrollBar } from "@/registry/new-york/ui/scroll-area"
+import { ScrollArea, ScrollBar } from "@/registry/ftech/ui/scroll-area"
 
 const examples = [
   {
@@ -59,19 +58,6 @@ export function ExamplesNav({ className, ...props }: ExamplesNavProps) {
   return (
     <div className="relative">
       <ScrollArea className="max-w-[600px] lg:max-w-none">
-        <div className={cn("flex items-center", className)} {...props}>
-          <ExampleLink
-            example={{ name: "Examples", href: "/", code: "", hidden: false }}
-            isActive={pathname === "/"}
-          />
-          {examples.map((example) => (
-            <ExampleLink
-              key={example.href}
-              example={example}
-              isActive={pathname?.startsWith(example.href) ?? false}
-            />
-          ))}
-        </div>
         <ScrollBar orientation="horizontal" className="invisible" />
       </ScrollArea>
     </div>

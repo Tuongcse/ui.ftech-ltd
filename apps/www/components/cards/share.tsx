@@ -4,25 +4,25 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@/registry/new-york/ui/avatar"
-import { Button } from "@/registry/new-york/ui/button"
+} from "@/registry/ftech/ui/avatar"
+import { Button } from "@/registry/ftech/ui/button"
 import {
   Card,
   CardContent,
   CardDescription,
   CardHeader,
   CardTitle,
-} from "@/registry/new-york/ui/card"
-import { Input } from "@/registry/new-york/ui/input"
-import { Label } from "@/registry/new-york/ui/label"
+} from "@/registry/ftech/ui/card"
+import { Input } from "@/registry/ftech/ui/input"
+import { Label } from "@/registry/ftech/ui/label"
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/registry/new-york/ui/select"
-import { Separator } from "@/registry/new-york/ui/separator"
+} from "@/registry/ftech/ui/select"
+import { Separator } from "@/registry/ftech/ui/separator"
 
 export function CardsShare() {
   return (

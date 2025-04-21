@@ -3,14 +3,12 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { SidebarNavItem } from "types/nav"
-
-import { type DocsConfig } from "@/config/docs"
 import { cn } from "@/lib/utils"
 
-export function DocsNav({ config }: { config: DocsConfig }) {
+export function DocsNav() {
   const pathname = usePathname()
 
-  const items = config.sidebarNav
+  const items: SidebarNavItem[]= []
 
   return items.length ? (
     <div className="flex flex-col gap-6">

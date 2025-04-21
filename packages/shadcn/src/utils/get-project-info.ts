@@ -317,7 +317,7 @@ export async function getProjectConfig(
     $schema: "https://ui.ftech.ltd/schema.json",
     rsc: projectInfo.isRSC,
     tsx: projectInfo.isTsx,
-    style: "new-york",
+    style: "ftech",
     tailwind: {
       config: projectInfo.tailwindConfigFile ?? "",
       baseColor: "zinc",

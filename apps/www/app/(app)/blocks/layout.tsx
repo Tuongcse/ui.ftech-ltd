@@ -8,14 +8,13 @@ import {
   PageHeaderDescription,
   PageHeaderHeading,
 } from "@/components/page-header"
-import { Button } from "@/registry/new-york/ui/button"
+
 
 import "@/styles/mdx.css"
-import Link from "next/link"
 
-const title = "Building Blocks for the Web"
+const title = "Ftech Built-in Modules"
 const description =
-  "Clean, modern building blocks. Copy and paste into your apps. Works with all React frameworks. Open Source. Free forever."
+  "Clean, modern building modules. Copy and paste into your apps. Works with all React frameworks. Open Source. Free forever."
 
 export const metadata: Metadata = {
   title,
@@ -49,16 +48,10 @@ export default function BlocksLayout({
   return (
     <>
       <PageHeader>
-        <Announcement />
         <PageHeaderHeading>{title}</PageHeaderHeading>
         <PageHeaderDescription>{description}</PageHeaderDescription>
         <PageActions>
-          <Button asChild size="sm">
-            <a href="#blocks">Browse Blocks</a>
-          </Button>
-          <Button asChild variant="ghost" size="sm">
-            <Link href="/docs/blocks">Add a block</Link>
-          </Button>
+
         </PageActions>
       </PageHeader>
       <div id="blocks" className="border-grid scroll-mt-24 border-b">

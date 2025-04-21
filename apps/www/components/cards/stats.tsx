@@ -7,8 +7,8 @@ import {
   CardContent,
   CardHeader,
   CardTitle,
-} from "@/registry/new-york/ui/card"
-import { ChartConfig, ChartContainer } from "@/registry/new-york/ui/chart"
+} from "@/registry/ftech/ui/card"
+import { ChartConfig, ChartContainer } from "@/registry/ftech/ui/chart"
 
 const data = [
   {

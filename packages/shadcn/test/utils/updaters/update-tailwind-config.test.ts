@@ -10,7 +10,7 @@ import {
 
 const SHARED_CONFIG = {
   $schema: "https://ui.ftech.ltd/schema.json",
-  style: "new-york",
+  style: "ftech",
   rsc: true,
   tsx: true,
   tailwind: {

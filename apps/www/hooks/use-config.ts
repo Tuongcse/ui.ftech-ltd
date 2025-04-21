@@ -13,7 +13,7 @@ type Config = {
 }
 
 const configAtom = atomWithStorage<Config>("config", {
-  style: "new-york",
+  style: "ftech",
   theme: "zinc",
   radius: 0.5,
   packageManager: "pnpm",

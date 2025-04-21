@@ -1,7 +1,7 @@
 "use client"
 
 import { Icons } from "@/components/icons"
-import { Button } from "@/registry/new-york/ui/button"
+import { Button } from "@/registry/ftech/ui/button"
 import {
   Card,
   CardContent,
@@ -9,17 +9,17 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/registry/new-york/ui/card"
-import { Input } from "@/registry/new-york/ui/input"
-import { Label } from "@/registry/new-york/ui/label"
-import { RadioGroup, RadioGroupItem } from "@/registry/new-york/ui/radio-group"
+} from "@/registry/ftech/ui/card"
+import { Input } from "@/registry/ftech/ui/input"
+import { Label } from "@/registry/ftech/ui/label"
+import { RadioGroup, RadioGroupItem } from "@/registry/ftech/ui/radio-group"
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/registry/new-york/ui/select"
+} from "@/registry/ftech/ui/select"
 
 export function CardsPaymentMethod() {
   return (

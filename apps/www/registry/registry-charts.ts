@@ -12,7 +12,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-area"],
   },
   {
     name: "chart-area-default",
@@ -24,7 +23,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-area"],
   },
   {
     name: "chart-area-gradient",
@@ -36,7 +34,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-area"],
   },
   {
     name: "chart-area-icons",
@@ -48,7 +45,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-area"],
   },
   {
     name: "chart-area-interactive",
@@ -60,7 +56,6 @@ export const charts: Registry["items"] = [
         type: "registry:component",
       },
     ],
-    categories: ["charts", "charts-area"],
   },
   {
     name: "chart-area-legend",
@@ -72,7 +67,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-area"],
   },
   {
     name: "chart-area-linear",
@@ -84,7 +78,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-area"],
   },
   {
     name: "chart-area-stacked-expand",
@@ -96,7 +89,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-area"],
   },
   {
     name: "chart-area-stacked",
@@ -108,7 +100,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-area"],
   },
   {
     name: "chart-area-step",
@@ -120,7 +111,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-area"],
   },
 
   // Bar Charts
@@ -134,7 +124,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-bar"],
   },
   {
     name: "chart-bar-default",
@@ -146,7 +135,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-bar"],
   },
   {
     name: "chart-bar-horizontal",
@@ -158,7 +146,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-bar"],
   },
   {
     name: "chart-bar-interactive",
@@ -170,7 +157,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-bar"],
   },
   {
     name: "chart-bar-label-custom",
@@ -182,7 +168,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-bar"],
   },
   {
     name: "chart-bar-label",
@@ -194,7 +179,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-bar"],
   },
   {
     name: "chart-bar-mixed",
@@ -206,7 +190,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-bar"],
   },
   {
     name: "chart-bar-multiple",
@@ -218,7 +201,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-bar"],
   },
   {
     name: "chart-bar-negative",
@@ -230,7 +212,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-bar"],
   },
   {
     name: "chart-bar-stacked",
@@ -242,7 +223,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-bar"],
   },
 
   // Line Charts
@@ -256,7 +236,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-line"],
   },
   {
     name: "chart-line-dots-colors",
@@ -268,7 +247,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-line"],
   },
   {
     name: "chart-line-dots-custom",
@@ -280,7 +258,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-line"],
   },
   {
     name: "chart-line-dots",
@@ -292,7 +269,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-line"],
   },
   {
     name: "chart-line-interactive",
@@ -304,7 +280,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-line"],
   },
   {
     name: "chart-line-label-custom",
@@ -316,7 +291,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-line"],
   },
   {
     name: "chart-line-label",
@@ -328,7 +302,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-line"],
   },
   {
     name: "chart-line-linear",
@@ -340,7 +313,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-line"],
   },
   {
     name: "chart-line-multiple",
@@ -352,7 +324,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-line"],
   },
   {
     name: "chart-line-step",
@@ -364,7 +335,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-line"],
   },
 
   // Pie Charts
@@ -378,7 +348,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-pie"],
   },
   {
     name: "chart-pie-donut-text",
@@ -390,7 +359,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-pie"],
   },
   {
     name: "chart-pie-donut",
@@ -402,7 +370,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-pie"],
   },
   {
     name: "chart-pie-interactive",
@@ -414,7 +381,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-pie"],
   },
   {
     name: "chart-pie-label-custom",
@@ -426,7 +392,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-pie"],
   },
   {
     name: "chart-pie-label-list",
@@ -438,7 +403,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-pie"],
   },
   {
     name: "chart-pie-label",
@@ -450,7 +414,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-pie"],
   },
   {
     name: "chart-pie-legend",
@@ -462,7 +425,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-pie"],
   },
   {
     name: "chart-pie-separator-none",
@@ -474,7 +436,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-pie"],
   },
   {
     name: "chart-pie-simple",
@@ -486,7 +447,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-pie"],
   },
   {
     name: "chart-pie-stacked",
@@ -498,7 +458,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-pie"],
   },
 
   // Radar Charts
@@ -512,7 +471,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-radar"],
   },
   {
     name: "chart-radar-dots",
@@ -524,7 +482,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-radar"],
   },
   {
     name: "chart-radar-grid-circle-fill",
@@ -536,7 +493,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-radar"],
   },
   {
     name: "chart-radar-grid-circle-no-lines",
@@ -548,7 +504,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-radar"],
   },
   {
     name: "chart-radar-grid-circle",
@@ -560,7 +515,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-radar"],
   },
   {
     name: "chart-radar-grid-custom",
@@ -572,7 +526,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-radar"],
   },
   {
     name: "chart-radar-grid-fill",
@@ -584,7 +537,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-radar"],
   },
   {
     name: "chart-radar-grid-none",
@@ -596,7 +548,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-radar"],
   },
   {
     name: "chart-radar-icons",
@@ -608,7 +559,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-radar"],
   },
   {
     name: "chart-radar-label-custom",
@@ -620,7 +570,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-radar"],
   },
   {
     name: "chart-radar-legend",
@@ -632,7 +581,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-radar"],
   },
   {
     name: "chart-radar-lines-only",
@@ -644,7 +592,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-radar"],
   },
   {
     name: "chart-radar-multiple",
@@ -656,7 +603,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-radar"],
   },
   {
     name: "chart-radar-radius",
@@ -668,7 +614,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-radar"],
   },
 
   // Radial Charts
@@ -682,7 +627,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-radial"],
   },
   {
     name: "chart-radial-label",
@@ -694,7 +638,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-radial"],
   },
   {
     name: "chart-radial-shape",
@@ -706,7 +649,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-radial"],
   },
   {
     name: "chart-radial-simple",
@@ -718,7 +660,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-radial"],
   },
   {
     name: "chart-radial-stacked",
@@ -730,7 +671,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-radial"],
   },
   {
     name: "chart-radial-text",
@@ -742,7 +682,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-radial"],
   },
   {
     name: "chart-tooltip-default",
@@ -754,7 +693,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-tooltip"],
   },
   {
     name: "chart-tooltip-indicator-line",
@@ -766,7 +704,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-tooltip"],
   },
   {
     name: "chart-tooltip-indicator-none",
@@ -778,7 +715,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-tooltip"],
   },
   {
     name: "chart-tooltip-label-none",
@@ -790,7 +726,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-tooltip"],
   },
   {
     name: "chart-tooltip-label-custom",
@@ -802,7 +737,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-tooltip"],
   },
   {
     name: "chart-tooltip-label-formatter",
@@ -814,7 +748,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-tooltip"],
   },
   {
     name: "chart-tooltip-formatter",
@@ -826,7 +759,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-tooltip"],
   },
   {
     name: "chart-tooltip-icons",
@@ -838,7 +770,6 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-tooltip"],
   },
   {
     name: "chart-tooltip-advanced",
@@ -850,6 +781,5 @@ export const charts: Registry["items"] = [
         type: "registry:block",
       },
     ],
-    categories: ["charts", "charts-tooltip"],
   },
 ]

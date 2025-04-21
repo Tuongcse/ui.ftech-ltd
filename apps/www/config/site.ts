@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "shadcn/ui",
+  name: "ftech/ui",
   url: "https://ui.ftech.ltd",
   ogImage: "https://ui.ftech.ltd/og.jpg",
   description:

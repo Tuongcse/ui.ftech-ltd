@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils"
 import { useConfig } from "@/hooks/use-config"
 import { copyToClipboardWithMeta } from "@/components/copy-button"
 import { ThemeWrapper } from "@/components/theme-wrapper"
-import { Button } from "@/registry/new-york/ui/button"
+import { Button } from "@/registry/ftech/ui/button"
 import {
   Dialog,
   DialogContent,
@@ -17,7 +17,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/registry/new-york/ui/dialog"
+} from "@/registry/ftech/ui/dialog"
 import {
   Drawer,
   DrawerContent,
@@ -25,15 +25,15 @@ import {
   DrawerHeader,
   DrawerTitle,
   DrawerTrigger,
-} from "@/registry/new-york/ui/drawer"
-import { Label } from "@/registry/new-york/ui/label"
+} from "@/registry/ftech/ui/drawer"
+import { Label } from "@/registry/ftech/ui/label"
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/registry/new-york/ui/popover"
-import { Separator } from "@/registry/new-york/ui/separator"
-import { Skeleton } from "@/registry/new-york/ui/skeleton"
+} from "@/registry/ftech/ui/popover"
+import { Separator } from "@/registry/ftech/ui/separator"
+import { Skeleton } from "@/registry/ftech/ui/skeleton"
 import {
   BaseColor,
   baseColors,
@@ -48,7 +48,7 @@ import {
   TabsContent,
   TabsList,
   TabsTrigger,
-} from "@/registry/new-york/ui/tabs"
+} from "@/registry/ftech/ui/tabs"
 
 interface BaseColorOKLCH {
   light: Record<string, string>

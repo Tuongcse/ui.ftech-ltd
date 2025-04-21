@@ -1,15 +1,10 @@
 import Link from "next/link"
 
 import { BlockDisplay } from "@/components/block-display"
-import { Button } from "@/registry/new-york/ui/button"
+import { Button } from "@/registry/ftech/ui/button"
 
 const FEATURED_BLOCKS = [
-  "repository",
-  "dashboard-01",
-  "sidebar-07",
-  "sidebar-03",
-  "login-03",
-  "login-04",
+  "ftech",
 ]
 
 export default async function BlocksPage() {

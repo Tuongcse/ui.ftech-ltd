@@ -1,6 +1,6 @@
 "use client"
 
-import { Button } from "@/registry/new-york/ui/button"
+import { Button } from "@/registry/ftech/ui/button"
 import {
   Card,
   CardContent,
@@ -8,9 +8,9 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/registry/new-york/ui/card"
-import { Label } from "@/registry/new-york/ui/label"
-import { Switch } from "@/registry/new-york/ui/switch"
+} from "@/registry/ftech/ui/card"
+import { Label } from "@/registry/ftech/ui/label"
+import { Switch } from "@/registry/ftech/ui/switch"
 
 export function CardsCookieSettings() {
   return (
