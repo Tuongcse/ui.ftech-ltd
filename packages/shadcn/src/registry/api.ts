@@ -1,5 +1,5 @@
 import path from "path"
-import { Config, getTargetStyleFromConfig } from "@/src/utils/get-config"
+import { Config } from "@/src/utils/get-config"
 import { getProjectTailwindVersionFromConfig } from "@/src/utils/get-project-info"
 import { handleError } from "@/src/utils/handle-error"
 import { highlighter } from "@/src/utils/highlighter"
@@ -340,18 +340,13 @@ export async function registryResolveItemsTree(
 
 async function resolveRegistryDependencies(
   url: string,
-  config: Config
 ): Promise<string[]> {
   const visited = new Set<string>()
   const payload: string[] = []
 
-  const style = config.resolvedPaths?.cwd
-    ? await getTargetStyleFromConfig(config.resolvedPaths.cwd, config.style)
-    : config.style
-
   async function resolveDependencies(itemUrl: string) {
     const url = getRegistryUrl(
-      isUrl(itemUrl) ? itemUrl : `styles/${style}/${itemUrl}.json`
+      isUrl(itemUrl) ? itemUrl : `styles/ftech/${itemUrl}.json`
     )
 
     if (visited.has(url)) {
@@ -487,8 +482,7 @@ export async function resolveRegistryItems(names: string[], config: Config) {
   let registryDependencies: string[] = []
   for (const name of names) {
     const itemRegistryDependencies = await resolveRegistryDependencies(
-      name,
-      config
+      name
     )
     registryDependencies.push(...itemRegistryDependencies)
   }

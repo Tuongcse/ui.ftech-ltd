@@ -13,10 +13,6 @@ export const registryItemTypeSchema = z.enum([
   "registry:file",
   "registry:theme",
   "registry:style",
-
-  // Internal use only
-  "registry:example",
-  "registry:internal",
 ])
 
 export const registryItemFileSchema = z.discriminatedUnion("type", [
